@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <link rel="manifest" href="manifest.json">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="apple-mobile-web-app-title" content="Wordle+">
@@ -9,6 +10,11 @@
 <meta charset="UTF-8">
 <title>Wordle+ Unlimited (Dark Theme)</title>
 <style>
+  html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
     body {
         font-family: Arial, sans-serif;
         display: flex;
@@ -17,7 +23,8 @@
         background: #121213;
         color: #fff;
         margin: 0;
-        padding: 20px;
+        padding: 0;
+        height: 100dvh;
     }
     h1 { margin: 5px 0 10px; }
     #topBar {
